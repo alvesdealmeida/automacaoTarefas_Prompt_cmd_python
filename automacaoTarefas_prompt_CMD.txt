@@ -1,0 +1,63 @@
+import pyautogui
+import time
+import pyperclip
+
+pyautogui.PAUSE = 1
+
+pyautogui.press("winleft")
+pyautogui.write("cmd")
+pyautogui.press("enter")
+
+pyautogui.write("dir")
+pyautogui.press("enter")
+pyautogui.write("cls")
+pyautogui.press("enter")
+pyautogui.write("cls")
+pyautogui.press("enter")
+pyautogui.write("cd Desktop")
+pyautogui.press("enter")
+pyautogui.write("dir")
+pyautogui.press("enter")
+
+pyautogui.write("xcopy notas.csv c:\\Users\\salvesa\\Desktop\\AndroidStudio")
+pyautogui.press("enter")
+
+pyautogui.write("xcopy teste2.py c:\\Users\\salvesa\\Desktop\\AndroidStudio")
+pyautogui.press("enter")
+
+pyautogui.write("xcopy teste1.py c:\\Users\\salvesa\\Desktop\\AndroidStudio")
+pyautogui.press("enter")
+
+pyautogui.write("xcopy teste.py c:\\Users\\salvesa\\Desktop\\AndroidStudio")
+pyautogui.press("enter")
+
+                                            
+pyautogui.write("xcopy sena2.py c:\\Users\\salvesa\\Desktop\\AndroidStudio")
+pyautogui.press("enter")
+
+pyautogui.write("xcopy palavra.py c:\\Users\\salvesa\\Desktop\\AndroidStudio")
+pyautogui.press("enter")
+
+pyautogui.write("xcopy ordena.py c:\\Users\\salvesa\\Desktop\\AndroidStudio")
+pyautogui.press("enter")
+
+pyautogui.write("xcopy modelo.ods c:\\Users\\salvesa\\Desktop\\AndroidStudio")
+pyautogui.press("enter")
+
+pyautogui.write("xcopy MEGASENA_INDIVIDUAL.csv c:\\Users\\salvesa\\Desktop\\AndroidStudio")
+pyautogui.press("enter")
+
+pyautogui.write("xcopy escolha.py c:\\Users\\salvesa\\Desktop\\AndroidStudio")
+pyautogui.press("enter")
+
+pyautogui.write("xcopy sebas.jpg c:\\Users\\salvesa\\Desktop\\AndroidStudio")
+pyautogui.press("enter")
+
+pyautogui.write("cls")
+pyautogui.press("enter")
+
+pyautogui.write("cd ..")
+pyautogui.press("enter")
+
+pyautogui.write("exit")
+pyautogui.press("enter")
